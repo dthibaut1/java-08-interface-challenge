@@ -6,7 +6,7 @@ public class Eagle extends Bird implements Fly {
     public Eagle(String name) {
         super(name);
         this.flying = false;
-        this.altitude = 10;
+        this.altitude = 0;
     }
 
     public int getAltitude() {
